@@ -1,0 +1,19 @@
+{
+  "name": "js-stack",
+  "version": "1.0.0",
+  "description": "stack Operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikur1/js-stack.git"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tikur1/js-stack/issues"
+  },
+  "homepage": "https://github.com/tikur1/js-stack#readme"
+}
