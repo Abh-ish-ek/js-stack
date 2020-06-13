@@ -4,8 +4,7 @@ const testPush = function (res) {
     stackObj.push(5);
     stackObj.push('Abhishek');
     stackObj.push(5);
-    stackObj.pop(5);
-    stackObj.log(person);
+    stackObj.pop();
   } catch (err) {}
 };
 

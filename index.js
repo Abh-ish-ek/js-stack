@@ -3,11 +3,11 @@ let stackObj = {
   push: function (x) {
     return this.data.push(x);
   },
-  pop: function (x) {
-    return this.data.pop(x);
+  pop: function () {
+    return this.data.pop();
   },
 };
 
 module.exports = {
-  person,
+  stackObj,
 };
