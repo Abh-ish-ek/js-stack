@@ -1,22 +1,12 @@
-const { pushData, popData } = require('./index');
+const { stackObj } = require('./index');
 const testPush = function (res) {
   try {
-    var itemArray = [1, 2];
-    var data = 5;
-    pushData(itemArray, data);
-    console.log(itemArray);
-  } catch (err) {
-    console.log(err);
-  }
+    stackObj.push(5);
+    stackObj.push('Abhishek');
+    stackObj.push(5);
+    stackObj.pop(5);
+    stackObj.log(person);
+  } catch (err) {}
 };
-const testPop = function (res) {
-  try {
-    var itemArray = [1, 2, 5, 6, 7];
-    popData(itemArray);
-    console.log(itemArray);
-  } catch (err) {
-    console.log(err);
-  }
-};
-//testPush();
-//testPop();
+
+testPush();
