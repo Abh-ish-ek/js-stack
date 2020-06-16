@@ -10,12 +10,12 @@
 //   return this.data.pop();
 // };
 
-class stackObj {
-  constructor(input) {
-    data: [], (this.input = input);
+class StackObj {
+  constructor() {
+    this.data=[];
   }
-  push() {
-    return this.data.push(x);
+  push(data) {
+    return this.data.push(data);
   }
 
   pop() {
@@ -23,16 +23,9 @@ class stackObj {
   }
 }
 
-module.exports = stackObj;
+function get_stack() {
+  return new StackObj();
+}
 
-// stackObj = {
-//   data: [],
-//   push: function (x) {
-//     return this.data.push(x);
-//   },
+module.exports.get_stack = get_stack;
 
-//   pop: function () {
-//     return this.data.pop();
-//   },
-// };
-// // module.exports['stkObj'] = stkObj;
