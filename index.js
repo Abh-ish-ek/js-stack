@@ -10,7 +10,7 @@
 //   return this.data.pop();
 // };
 
-class StackObj {
+class Stack {
   constructor() {
     this.data=[];
   }
@@ -27,5 +27,5 @@ function get_stack() {
   return new StackObj();
 }
 
-module.exports.get_stack = get_stack;
+module.exports.Stack = Stack;
 
